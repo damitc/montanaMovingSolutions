@@ -43,31 +43,56 @@
     <div class="container-fluid" id="heroSection">
         <!-- this is where the background image will live -->    
     </div>
-    <div class="container-fluid" id="contactContainer">
-        <div class="row">
-            <div id="schedule">
-                <form method="POST" action="process.php">
-                    <label for="fromZip">From Zip</label>
-                        <input id="fromZip">
-                    <label for="toZip">To Zip</label>
-                        <input id="toZip">
-                    <label for="rooms">How Many Rooms</label>
-                        <input id="rooms">
-                    <label for="moveInDate">Move-In Date</label>
-                        <input id="moveInDate">
-                    <label for="firstName">First Name</label>
-                        <input id="firstName">
-                    <label for="lastName">Last Name</label>
-                        <input id="lastName">
-                    <label for="telephone">Telephone</label>
-                        <input id="telephone">
-                    <label for="email">Email</label>
-                        <input id="email">
-                    
-                </form>
-            </div>
+
+    <!-- main scheduling C2A -->
+    <div class="container-fluid" id="contactContainer" style="width: 500px;">
+        <div id="schedule">
+            <form class="row g-3">
+                <div class="form-floating col-md-6">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="From ZIP">
+                    <label for="floatingInput">From ZIP</label>
+                </div>
+                <div class="form-floating col-md-6">
+                    <input type="text" class="form-control" id="floatingInput2" placeholder="To ZIP">
+                    <label for="floatingInput2">To ZIP</label>
+                </div>
+                <div class="form-floating col-md-6">
+                    <input type="text" class="form-control" id="floatingInput3" placeholder="How Many Rooms?">
+                    <label for="floatingInput3">How Many Rooms?</label>
+                </div>
+                <div class="form-floating col-md-6">
+                    <input type="text" class="form-control" id="floatingInput4" placeholder="mm/dd/yyyy">
+                    <label for="floatingInput4">Move In Date | mm&#47;dd&#47;yyyy</label>
+                </div>
+                <div class="form-floating col-md-6">
+                    <input type="text" class="form-control" id="floatingInput5" placeholder="First Name">
+                    <label for="floatingInput5">First Name</label>
+                </div>
+                <div class="form-floating col-md-6">
+                    <input type="text" class="form-control" id="floatingInput6" placeholder="Last Name">
+                    <label for="floatingInput6">Last Name</label>
+                </div>
+                <div class="form-floating col-md-6">
+                    <input type="text" class="form-control" id="floatingInput7" placeholder="Phone Number">
+                    <label for="floatingInput7">Phone Number</label>
+                </div>
+                <div class="col-md-6">
+                    <button type="submit" class="btn btn-primary customButton">Schedule Now</button>
+                </div>
+            </form>
         </div>
     </div>
+
+    <!-- main body content -->
+    <section class="mainBodySection">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>We Are <strong><em>The</em> Solution</strong> to all Your Moving Needs!</h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
