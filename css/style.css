@@ -81,7 +81,15 @@ body {
     display: none;
   }
 }
-
 .navbar a {
   color: #FFFFFF !important;
+}
+/* End of navbar */
+
+#heroSection {
+  background-image: url(../img/kitchenBox.jpg);
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  width: 100%;
 }
