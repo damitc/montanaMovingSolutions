@@ -12,6 +12,15 @@ body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
 
+body {
+  background-image: url(../img/wickedbackground.svg);
+  background-size: cover;
+}
+
+input {
+  height: 45px !important;
+}
+
 #links a {
     color: black;
 }
@@ -87,7 +96,7 @@ body {
 }
 /* End of navbar */
 
-#heroSection {
+#heroSectionBackgroundImg {
   background-image: url(../img/kitchenBox.jpg);
   background-size: cover;
   position: relative;
@@ -128,11 +137,20 @@ body {
 
 #topBodySection {
   text-align: right;
-  background-color: white;
+  /* background-color: white; */
   width: 100%;
 }
 
 #buttonAlignment {
   padding: 10px;
   text-align: center !important;
+}
+
+.customButton {
+  background-color: tomato;
+  border-color: tomato;
+}
+
+#heroTitle {
+  color: #FFFFFF;
 }
