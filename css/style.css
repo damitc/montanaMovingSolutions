@@ -17,10 +17,12 @@ body {
   background-size: cover;
 }
 
+/* Changing the form field height */
 input {
   height: 45px !important;
 }
 
+/* Changing pop-out menu font color */
 #links a {
     color: black;
 }
@@ -96,7 +98,7 @@ input {
 }
 /* End of navbar */
 
-#heroSectionBackgroundImg {
+#heroSection {
   background-image: url(../img/kitchenBox.jpg);
   background-size: cover;
   position: relative;
@@ -104,18 +106,29 @@ input {
   width: 100%;
 }
 
+#heroRow {
+  height: 550px;
+  width: 100%;
+}
+
+#heroTitle {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
 #contactContainer {
   min-height: 350px;
   max-height: 450px;
   width: 500px;
   position: absolute;
-  bottom: 50px;
-  left: 100px;
+  bottom: 150px;
+  left: 250px;
   background-color: black;
   padding: 25px;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+  box-shadow: 0 8px 13px rgba(154,160,185,.1), 0 18px 43px rgba(166,173,201,.3);
 }
 
 #contactContainer h1 {
@@ -132,6 +145,7 @@ input {
     left: auto;
     width: 100%;
     height: auto;
+    overflow: auto;
   }
 }
 
@@ -147,10 +161,7 @@ input {
 }
 
 .customButton {
-  background-color: tomato;
-  border-color: tomato;
+  background-color:rgba(224, 2, 1, .9);
+  border-color: rgba(224, 2, 1, 1);
 }
 
-#heroTitle {
-  color: #FFFFFF;
-}
