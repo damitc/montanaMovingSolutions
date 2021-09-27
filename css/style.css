@@ -114,7 +114,8 @@ input {
 #heroTitle {
   color: #FFFFFF;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 4rem;
+  margin-top: 50px;
 }
 
 #contactContainer {
@@ -129,6 +130,7 @@ input {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 8px 13px rgba(154,160,185,.1), 0 18px 43px rgba(166,173,201,.3);
+  z-index: 500;
 }
 
 #contactContainer h1 {
@@ -145,7 +147,8 @@ input {
     left: auto;
     width: 100%;
     height: auto;
-    overflow: auto;
+    overflow: initial;
+    max-height: inherit;
   }
 }
 
