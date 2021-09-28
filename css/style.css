@@ -13,10 +13,10 @@ body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
 
-body {
+/* body {
   background-image: url(../img/wickedbackground.svg);
   background-size: cover;
-}
+} */
 
 /* Changing the form field height */
 /* input {
