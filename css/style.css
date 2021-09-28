@@ -168,6 +168,25 @@ body {
   border-color: rgba(224, 2, 1, 1);
 }
 
-#mainSection h1,p{
+.bodySection h1,h2,p{
   margin: 15px 25px;
+}
+
+#footer {
+  background-color: #262626;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#footerList {
+  text-align: left;
+}
+
+.footerNav {
+  color: white;
+}
+
+.footerNav:hover {
+  color: #2052b3;
 }
