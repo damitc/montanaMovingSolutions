@@ -18,9 +18,9 @@ body {
 }
 
 /* Changing the form field height */
-input {
+/* input {
   height: 45px !important;
-}
+} */
 
 /* Changing pop-out menu font color */
 #links a {
@@ -121,11 +121,11 @@ input {
 #contactContainer {
   min-height: 350px;
   max-height: 450px;
-  width: 500px;
+  width: 800px;
   position: absolute;
-  bottom: 150px;
+  bottom: 100px;
   left: 250px;
-  background-color: black;
+  background-color: #191919;
   padding: 25px;
   border-radius: 10px;
   overflow: hidden;
