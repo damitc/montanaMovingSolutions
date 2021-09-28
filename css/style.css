@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
 /* supposed box model fix
 html {
   box-sizing: border-box;
@@ -150,6 +151,7 @@ body {
     overflow: initial;
     max-height: inherit;
   }
+
 }
 
 #topBodySection {
@@ -172,6 +174,30 @@ body {
   margin: 15px 25px;
 }
 
+.teamSection {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.teamSection .font-weight-medium {
+  font-weight: 500;
+}
+
+.teamSection h5 {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.teamSection .subtitle {
+  line-height: 24px;
+  font-size: 13px;
+}
+
+.circleImageDiv {
+  text-align: center;
+  margin-bottom: -25px;
+}
+
 #footer {
   background-color: #262626;
   color: white;
@@ -187,6 +213,6 @@ body {
   color: white;
 }
 
-.footerNav:hover {
+.footerNav a:hover {
   color: #2052b3;
 }
