@@ -168,3 +168,6 @@ input {
   border-color: rgba(224, 2, 1, 1);
 }
 
+#mainSection h1,p{
+  margin: 15px 25px;
+}
