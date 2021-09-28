@@ -1,22 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
-/* supposed box model fix
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-*/
 
 html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
+  font-family: "Montserrat", sans-serif;
 }
-
-/* body {
-  background-image: url(../img/wickedbackground.svg);
-  background-size: cover;
-} */
 
 /* Changing the form field height */
 /* input {
@@ -28,7 +16,7 @@ body {
     color: black;
 }
 
-/* navbar hide on scroll down */
+/*-------------------------------------- Navbar Hide on Scroll Down --------------------------------------*/
 .nav-up {
     top: -80px;
 }
@@ -99,6 +87,7 @@ body {
 }
 /* End of navbar */
 
+/*-------------------------------------- Hero Section --------------------------------------*/
 #heroSection {
   background-image: url(../img/kitchenBox.jpg);
   background-size: cover;
@@ -119,6 +108,7 @@ body {
   margin-top: 50px;
 }
 
+/*-------------------------------------- Contact Container --------------------------------------*/
 #contactContainer {
   min-height: 350px;
   max-height: 450px;
@@ -154,12 +144,6 @@ body {
 
 }
 
-#topBodySection {
-  text-align: right;
-  /* background-color: white; */
-  width: 100%;
-}
-
 #buttonAlignment {
   padding: 10px;
   text-align: center !important;
@@ -170,10 +154,18 @@ body {
   border-color: rgba(224, 2, 1, 1);
 }
 
+/*-------------------------------------- First Body Text Area --------------------------------------*/
+#topBodySection {
+  text-align: right;
+  /* background-color: white; */
+  width: 100%;
+}
+
 .bodySection h1,h2,p{
   margin: 15px 25px;
 }
 
+/*-------------------------------------- Team Section --------------------------------------*/
 .teamSection {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -198,6 +190,7 @@ body {
   margin-bottom: -25px;
 }
 
+/*-------------------------------------- Footer --------------------------------------*/
 #footer {
   background-color: #262626;
   color: white;
