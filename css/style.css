@@ -161,14 +161,37 @@ body {
   width: 100%;
 }
 
+#topBodySection h1 {
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+}
+
 .bodySection h1,h2,p{
   margin: 15px 25px;
+}
+
+/*-------------------------------------- About Section --------------------------------------*/
+#aboutSection {
+  /* background-color: rgba(32, 82, 179, 1); */
+  padding: 15px;
+  /* color: #FFFFFF; */
+  /* border-top: 5px solid rgba(17, 44, 97, 1);
+  border-bottom: 5px solid rgba(17, 44, 97, 1);
+  outline: 5px solid rgba(224, 2, 1, .8); */
+}
+
+#aboutSection h2 {
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
 }
 
 /*-------------------------------------- Team Section --------------------------------------*/
 .teamSection {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
+}
+
+.teamSection h2 {
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
 }
 
 .teamSection .font-weight-medium {
