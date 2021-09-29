@@ -290,10 +290,10 @@ body {
 @media (max-width: 1400px) {
   #contactContainer {
     min-height: 350px;
-    max-height: 450px;
+    max-height: 400px;
     width: 650px;
     position: absolute;
-    bottom: 50px;
+    bottom: 0px;
     left: 100px;
     background-color: #191919;
     padding: 25px;
