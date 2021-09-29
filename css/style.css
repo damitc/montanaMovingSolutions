@@ -287,7 +287,7 @@ body {
 }
 
 /*-------------------------------------- Media Queries for Main Content --------------------------------------*/
-@media (max-width: 1400px) {
+@media (max-width: 1400px) and (min-width: 1000px) {
   #contactContainer {
     min-height: 350px;
     max-height: 450px;
