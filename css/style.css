@@ -286,3 +286,40 @@ body {
   color: #2052b3;
 }
 
+/*-------------------------------------- Media Queries for Main Content --------------------------------------*/
+@media (max-width: 1400px) {
+  #contactContainer {
+    min-height: 350px;
+    max-height: 500px;
+    width: 800px;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+    background-color: #191919;
+    padding: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 13px rgba(154,160,185,.1), 0 18px 43px rgba(166,173,201,.3);
+    z-index: 500;
+  }
+
+  #heroSection {
+    background-image: url(../img/kitchenBox.jpg);
+    background-size: cover;
+    position: relative;
+    height: 550px;
+    width: 100%;
+  }
+  
+  #heroRow {
+    height: 550px;
+    width: 100%;
+  }
+  
+  #heroTitle {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 50px;
+  }
+}
