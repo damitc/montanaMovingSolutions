@@ -222,6 +222,21 @@ body {
   text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
 }
 
+.bodyContent {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#aboutPG1 {
+  margin-right: 0;
+  text-align: justify;
+}
+
+#aboutPG2 {
+  margin-left: 0;
+  text-align: justify;
+}
+
 /*-------------------------------------- Team Section --------------------------------------*/
 .teamSection {
   font-family: "Montserrat", sans-serif;
