@@ -290,8 +290,8 @@ body {
 @media (max-width: 1400px) {
   #contactContainer {
     min-height: 350px;
-    max-height: 500px;
-    width: 800px;
+    max-height: 450px;
+    width: 650px;
     position: absolute;
     bottom: 50px;
     left: 100px;
@@ -307,12 +307,12 @@ body {
     background-image: url(../img/kitchenBox.jpg);
     background-size: cover;
     position: relative;
-    height: 550px;
+    height: 450px;
     width: 100%;
   }
   
   #heroRow {
-    height: 550px;
+    height: 450px;
     width: 100%;
   }
   
