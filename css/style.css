@@ -154,6 +154,44 @@ body {
   border-color: rgba(224, 2, 1, 1);
 }
 
+/*-------------------------------------- 4k Screen Support --------------------------------------*/
+@media (max-width:3840px) and (min-width: 2500px) {
+  #contactContainer {
+    min-height: 350px;
+    max-height: 500px;
+    width: 1000px;
+    position: absolute;
+    bottom: 300px;
+    left: 250px;
+    background-color: #191919;
+    padding: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 13px rgba(154,160,185,.1), 0 18px 43px rgba(166,173,201,.3);
+    z-index: 500;
+  }
+
+  #heroSection {
+    background-image: url(../img/kitchenBox.jpg);
+    background-size: cover;
+    position: relative;
+    height: 750px;
+    width: 100%;
+  }
+  
+  #heroRow {
+    height: 750px;
+    width: 100%;
+  }
+  
+  #heroTitle {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 50px;
+  }
+}
+
 /*-------------------------------------- First Body Text Area --------------------------------------*/
 #topBodySection {
   text-align: right;
@@ -232,3 +270,4 @@ body {
 .footerNav a:hover {
   color: #2052b3;
 }
+
