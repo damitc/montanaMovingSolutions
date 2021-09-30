@@ -194,18 +194,30 @@ body {
 
 /*-------------------------------------- First Body Text Area --------------------------------------*/
 #topBodySection {
-  text-align: right;
+  text-align: justify;
   /* background-color: white; */
   width: 100%;
+  padding: 15px;
 }
 
 #topBodySection h1 {
   text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+  text-align: center;
 }
 
-.bodySection h1,h2,p{
+.bodySection h1,h2{
   margin: 15px 25px;
 }
+
+/* #bodyPG1 {
+  margin-right: 0;
+  text-align: justify;
+}
+
+#bodyPG2 {
+  margin-left: 0;
+  text-align: justify;
+} */
 
 /*-------------------------------------- About Section --------------------------------------*/
 #aboutSection {
@@ -272,19 +284,36 @@ body {
   color: white;
   text-align: center;
   margin-top: 50px;
+  text-decoration: none;
 }
 
 #footerList {
-  text-align: left;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#footerList ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footerList ul li a {
+  text-decoration: none;
+}
+
+ul#footerNavMenu li {
+  display: inline-block;
 }
 
 .footerNav {
-  color: white;
+  color: white !important;
+  text-decoration: none;
 }
 
-.footerNav a:hover {
-  color: #2052b3;
-}
+/* .footerNav a:hover {
+  color: #2052b3 !important;
+} */
 
 /*-------------------------------------- Media Queries for Main Content --------------------------------------*/
 @media (max-width: 1400px) and (min-width: 1000px) {
@@ -321,5 +350,37 @@ body {
     text-align: center;
     font-size: 4rem;
     margin-top: 50px;
+  }
+}
+
+@media (max-width: 2000px) and (min-width: 1500px) {
+  #contactContainer {
+    min-height: 350px;
+    max-height: 550px;
+    width: 900px;
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    background-color: #191919;
+    padding: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 13px rgba(154,160,185,.1), 0 18px 43px rgba(166,173,201,.3);
+    z-index: 500;
+  }
+}
+
+@media (max-width: 550px) {
+  /* .bodySection h1,h2,p{
+    margin: 0;
+  } */
+  .bodyContent {
+    margin: 0;
+  }
+  p {
+    text-align: justify;
+  }
+  .pt-2 p {
+    text-align: center;
   }
 }
